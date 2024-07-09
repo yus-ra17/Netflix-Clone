@@ -1,0 +1,25 @@
+.footerContainer {
+  display: flex;
+  justify-content: space-between;
+  /* margin: 20px; */
+  /* padding: 60px; */
+  margin-left: 300px;
+}
+.footerContainer ul {
+  list-style: none;
+}
+.footerContainer ul li {
+  justify-content: space-between;
+  margin: 20px;
+  color: darkgrey;
+}
+.icons ul {
+  display: flex;
+  justify-content: space-between;
+}
+.service {
+
+border: solid;
+
+
+}
