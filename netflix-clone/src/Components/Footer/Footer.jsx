@@ -26,6 +26,7 @@ function Footer() {
           <li>Investor Relations</li>
           <li>Legal Notice</li>
           <li>Service Code</li>
+          <div>&copy; 1997-2024 Netflix, Inc.</div>
         </ul>
       </div>
 
@@ -53,11 +54,9 @@ function Footer() {
         </ul>
       </div>
 
-      <div className="service">
+      {/* <div className="service">
         <p>Service Code</p>
-      </div>
-
-      <div>&copy; 1997-2024 Netflix, Inc.</div>
+      </div> */}
     </div>
   );
 }
