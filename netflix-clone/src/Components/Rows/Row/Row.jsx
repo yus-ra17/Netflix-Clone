@@ -57,7 +57,7 @@ const Row = ({ title, fetchUrl, isLargeRow }) => {
               isLargeRow ? movies.poster_path : movies.backdrop_path
             }`}
             alt={movies.name}
-            className={`row_poster $ {isLargeRow && row_posterLarge""}`}
+            className={`row_poster ${isLargeRow && "row_posterLarge"}`}
           />
         ))}
       </div>

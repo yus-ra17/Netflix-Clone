@@ -13,6 +13,10 @@
   padding: 20px;
 }
 
+.poster img {
+  width: 150px;
+}
+
 .poster::-webkit-scrollbar {
   display: none;
 }
